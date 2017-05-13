@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="monitoring.seminar.fer.monitoring.MonitoringActivity">
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="127dp"
+        android:layout_height="82dp"
+        android:backgroundTint="@color/greenTint"
+        android:text="Start"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/bt_stop"
+        android:layout_width="127dp"
+        android:layout_height="82dp"
+        android:backgroundTint="@color/redTint"
+        android:enabled="false"
+        android:text="Stop"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <Button
+        android:id="@+id/bt_configure"
+        android:layout_width="127dp"
+        android:layout_height="82dp"
+        android:text="Configure"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+</LinearLayout>
